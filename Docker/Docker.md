@@ -27,6 +27,8 @@
 
 ### 容器
 
+
+
 ```java
 //-i保证容器中STDIN是开启的。-t告诉docker为要创建的容器分配一个伪tty终端
 创建容器 docker run -i -t mysql /bin/bash
