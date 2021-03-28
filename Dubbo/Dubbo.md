@@ -2163,4 +2163,4 @@ Dubbo提供服务容错的能力，通常用于服务降级，比如验权服务
 
 这些Mock关键逻辑是在哪里处理的呢？处理Mock伪装对应的实现类是MockClusterlnvoker,因为MockClusterWrapper是对扩展点Cluster的包装，当框架在加载Cluster扩展点时会自动使用MockClusterWrapper 类对 Cluster 实例进行包装（默认是 FailoverCluster o MockClusterlnvoker对应的实现如代码清单9-12所示。
 
-![image-20201217173320843](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20201217173320843.png)
+![image-20201217173320843](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20201217173320843.png)查看图片请切换img地址
